@@ -140,19 +140,13 @@ if st.sidebar.button("Submit"):
     if pred == 0:
         st.image("https://cdn.imgbin.com/16/24/10/imgbin-partnership-open-business-partner-computer-icons-business-mahZe5BTWQH9Dcm7gkwBVdnqt.jpg")
 
-        audio_file = open('money-soundfx.mp3', 'rb')
-        audio_bytes = audio_file.read()
-
-        st.audio(audio_bytes, format='money-soundfx.mp3')
+        
         
     else:
         st.image("https://media.istockphoto.com/id/1269117710/photo/fraud-alert-conceptual-warning-road-sign-against-stormy-sky.jpg?b=1&s=612x612&w=0&k=20&c=UjjX8MWaQSFWHabwYBCjqJmIE4PL0X-iCH-nNMGEvlM=")
         
         
-        audio_file = open('fbi.mp3', 'rb')
-        audio_bytes = audio_file.read()
-
-        st.audio(audio_bytes, format='fbi.mp3')
+      
 
 
 else:
